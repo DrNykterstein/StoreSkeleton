@@ -4,7 +4,7 @@
             <!-- Cards -->
             <article class="producto">
                 <div class="contenido">
-                    <img src="assets/img/1.png">
+                    <img src="<?php echo IMG.'1.png'?>">
                     <h3>Camiseta de Android</h3>
                     <a href="#" class="boton">Agregar al carrito</a>
                 </div>
@@ -12,7 +12,7 @@
 
             <article class="producto">
                 <div class="contenido">
-                    <img src="assets/img/2.png">
+                    <img src="<?php echo IMG.'2.png'?>">
                     <h3>Camiseta de Android</h3>
                     <a href="#" class="boton">Agregar al carrito</a>
                 </div>
@@ -20,7 +20,7 @@
 
             <article class="producto">
                 <div class="contenido">
-                    <img src="assets/img/1.png">
+                    <img src="<?php echo IMG.'1.png'?>">
                     <h3>Camiseta de Android</h3>
                     <a href="#" class="boton">Agregar al carrito</a>
                 </div>
@@ -28,7 +28,7 @@
 
             <article class="producto">
                 <div class="contenido">
-                    <img src="assets/img/2.png">
+                    <img src="<?php echo IMG.'2.png'?>">
                     <h3>Camiseta de Android</h3>
                     <a href="#" class="boton">Agregar al carrito</a>
                 </div>
@@ -36,7 +36,7 @@
 
             <article class="producto">
                 <div class="contenido">
-                    <img src="assets/img/2.png">
+                    <img src="<?php echo IMG.'2.png'?>">
                     <h3>Camiseta de Android</h3>
                     <a href="#" class="boton">Agregar al carrito</a>
                 </div>
@@ -44,8 +44,9 @@
 
             <article class="producto">
                 <div class="contenido">
-                    <img src="assets/img/2.png">
+                    <img src="<?php echo IMG.'2.png'?>">
                     <h3>Camiseta de Android</h3>
                     <a href="#" class="boton">Agregar al carrito</a>
                 </div>
             </article>
+        </div><!--Contenedor para flex-box -->
