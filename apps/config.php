@@ -15,5 +15,6 @@ define('CSS',ASSETS.'css/');
 define('IMG',ASSETS.'img/');
 define('JS',ASSETS.'js/');
 
-
+//Incluyo las funciones
+require_once APPS.'functions.php';
 ?>

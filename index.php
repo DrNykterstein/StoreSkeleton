@@ -1,5 +1,11 @@
-<?php require_once'apps/config.php';?>
-<?php require_once'includes/header.php'; ?>
-<?php require_once'views/tarjeta_views.php';?>
-<?php require_once'views/tabla_views.php';?>    
-<?php require_once'includes/footer.php';?>
+<?php 
+    require_once'apps/config.php';
+    renderIncludes('header.php');
+    $data = [
+        'productos'=>getProducto()
+    ];
+
+    renderViews('tarjeta_views.php',$data);
+    renderViews('tabla_views.php',$data);   
+    renderIncludes('footer.php');
+?>

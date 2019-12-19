@@ -12,10 +12,10 @@
                             <th>Total</th>
                         </tr>
                     </thead>
-
+                    <?php foreach($data['productos'] as $camisa): ?>
                     <tbody>
                         <tr>
-                            <td>Android</td>
+                            <td><?php echo $camisa['nombre']; ?></td>
                             <td>
                                 <select name="">
                                     <option selected disabled>Cantidad</option>
@@ -25,38 +25,10 @@
                                     <option value="4">4</option>  
                                 </select>
                             </td>
-                            <td>35$</td>
-                        </tr>
-
-                        <tr>
-                            <td>Kali</td>
-                            <td>
-                                <select name="">
-                                    <option selected disabled>Cantidad</option>
-                                    <option value="1">1</option> 
-                                    <option value="2">2</option>
-                                    <option value="3">3</option> 
-                                    <option value="4">4</option>  
-                                </select>
-                            </td>
-                            <td>35$</td>
-                        </tr>
-
-                        <tr>
-                            <td>Linux</td>
-                            <td>
-                                <select name="">
-                                    <option selected disabled>Cantidad</option>
-                                    <option value="1">1</option> 
-                                    <option value="2">2</option>
-                                    <option value="3">3</option> 
-                                    <option value="4">4</option>  
-                                </select>
-                            </td>
-                            <td>35$</td>
+                            <td><?php echo $camisa['precio'].'$'; ?></td>
                         </tr>
                     </tbody>
-                    
+                    <?php endforeach; ?>
                 </table>
                 <div class="botones">
                     <a href="#" class="boton centrar">Vaciar Tabla</a>
